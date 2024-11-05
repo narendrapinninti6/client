@@ -1,0 +1,134 @@
+.Footer-container {
+  background-color: #fff; /* Light background color */
+  padding: 20px; /* Padding around the footer */
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items at the start */
+  /* margin-top: 200px; */
+}
+
+.uc {
+  max-width: 400px; /* Limit width for the description */
+  margin-right: 40px;
+  margin-left: 50px; 
+  font-size: 20px;
+  justify-content: center;/* Add margin to the right of the logo */
+}
+
+.uc img {
+  max-width: 70%; /* Make the logo responsive */
+  height: auto; 
+  margin-bottom: 10px; /* Maintain aspect ratio */
+}
+p{
+  font-size: 20px;
+}
+.Footer-container h3 {
+  margin-bottom: 10px; /* Space below headings */
+  font-size: 24px; /* Increased font size for headings */
+  color: #333; /* Darker color for contrast */
+}
+
+.footer-links {
+  display: flex; /* Use flexbox for columns */
+  justify-content: space-between; /* Space out columns */
+  width: 100%; /* Make it full width */
+}
+
+.footer-column {
+  flex: 1; /* Each column takes equal space */
+  margin: 0 10px; 
+  margin-left: 60px;
+  justify-content: center;/* Add some margin between columns */
+}
+
+.footer-column ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.footer-column li {
+  margin: 8px 0; /* Space between items */
+  font-size: 18px; /* Increased font size for items */
+  color: #555; /* Slightly lighter color for items */
+}
+
+.Footer-container p {
+  font-size: 16px; /* Increased font size for paragraph text */
+  color: #666; /* Light gray color for readability */
+}
+
+.Sm {
+  font-size: 24px; /* Increased size for the follow us text */
+  margin: 20px 0; /* Margin for spacing */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Darker color for visibility */
+}
+
+.social-media {
+  display: flex;
+  justify-content: center; /* Use flexbox for social media icons */
+  gap: 20px; /* Space between icons */
+}
+
+.social-media a {
+  color: #555; /* Default color for icons */
+  font-size: 28px; /* Increased size of icons */
+  transition: color 0.3s; /* Transition for hover effect */
+}
+
+.social-media a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.Footer-bottom {
+  background-color: #e9ecef; /* Slightly darker background for bottom */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Padding for top and bottom */
+  margin-top: 20px; /* Space above the footer bottom */
+  font-size: 16px; /* Increased font size for copyright */
+  color: #777; /* Light gray color */
+}
+
+.Sm {
+  display: flex;
+  justify-content: center;
+  font-size: 26px; /* Increased size */
+}
+
+.social-media a {
+  color: #333; /* Default color of icons */
+  font-size: 42px; /* Increased size of icons */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.social-media a:hover {
+  color: #007bff; /* Color on hover */
+}
+
+.social-media a.face {
+  color: #3b5998; /* Facebook color */
+}
+
+.social-media a.twitter {
+  color: #1da1f2; /* Twitter color */
+}
+
+.social-media a.instagram {
+  color: #c13584; /* Instagram color */
+}
+
+.social-media a.youtube {
+  color: #ff0000; /* YouTube color */
+}
+
+.social-media a.linkedin {
+  color: #0077b5; /* LinkedIn color */
+}
+.social-media a.whatsapp {
+  color: green; /* LinkedIn color */
+}
+.face{
+  text-decoration: none;
+  color: #5d5a5a;
+
+}

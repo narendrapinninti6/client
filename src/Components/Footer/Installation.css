@@ -1,0 +1,116 @@
+.footer-section {
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.footer-section h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #02090fd8;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #0e0f0fb7, #020f1dbd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.details-and-images {
+  display: flex;
+  align-items: flex-start; /* Align items to the start of the container */
+  gap: 20px; /* Space between text and images */
+}
+
+.text-details {
+  flex: 1; /* Allow text to take the available space */
+}
+
+.images {
+  display: flex; /* Display images in a row */
+  flex: 1; /* Allow images to take the available space */
+  gap: 15px; /* Space between images */
+}
+
+.images .image {
+  width: calc(50% - 10px); /* Set to medium size, adjust as needed */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  opacity: 0.9;
+}
+
+.images .image:hover {
+  transform: scale(1.08) rotate(2deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.installation-details {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+}
+
+.installation-details p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.installation-details ul {
+  padding-left: 25px;
+  list-style-type: square;
+}
+
+.installation-details ul li {
+  margin-bottom: 10px;
+  color: #555;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.installation-details ul li:hover {
+  color: #4A90E2;
+  transform: translateX(5px);
+}
+
+/* New class for the second set of images */
+.second-images {
+  margin-top: 30px; /* Adjust this value to move images down */
+}
+
+@media (max-width: 768px) {
+  .details-and-images {
+    flex-direction: column; /* Stack elements on smaller screens */
+  }
+
+  .images {
+    flex-direction: row; /* Keep images in a row */
+    justify-content: center; /* Center images */
+  }
+
+  .images .image {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max-width to adjust size */
+  }
+}

@@ -1,0 +1,98 @@
+.carousel-container {
+    width: 98%;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.cou {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+.carousel-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-line {
+    width: 200px;  /* Adjust the width of each line */
+    height: 4px;  /* Line height */
+    background-color: #e0e0e0;  /* Inactive line color */
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-line.active {
+    background-color: #000;  /* Active line color */
+  }
+/* Carousel item styling */
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Adjusts horizontal space between items */
+    box-sizing: border-box;
+}
+
+/* Image styling inside the carousel */
+.category-image {
+    width: 100%; /* Full width of carousel item */
+    max-width: 250px; /* Sets a consistent max width */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.category-image:hover {
+    transform: scale(1.05); /* Image zoom effect on hover */
+}
+.cou {
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+}
+/* Category name styling */
+.category-name {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Override slick styles for spacing */
+.slick-slide {
+    padding: 0 5px; /* Adjusts horizontal space between slides */
+    box-sizing: border-box;
+}
+
+.slick-list {
+    margin: 0 -15px; /* Removes space at edges */
+    overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .category-image {
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-image {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-image {
+        height: 120px;
+    }
+
+    
+}
