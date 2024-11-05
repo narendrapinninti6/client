@@ -1,5 +1,6 @@
 {
-  "name": "urbancomfort",
+  "homepage": "https://narendrapinninti6.github.io/client",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
